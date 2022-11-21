@@ -1,11 +1,11 @@
 import React, {
-  ReactElement,
+  ReactNode,
 } from 'react';
 
 import styles from './index.module.scss';
 
 interface NodeOutProps {
-  children: ReactElement;
+  children: ReactNode;
 }
 
 function NodeOut({
