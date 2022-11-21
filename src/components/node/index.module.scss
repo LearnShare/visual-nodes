@@ -1,0 +1,38 @@
+.node {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  box-sizing: border-box;
+  border: solid 1px #999;
+  border-radius: 8px;
+  min-width: 200px;
+  background-color: #555;
+}
+
+.title {
+  border-bottom: solid 1px #999;
+  font-size: 12px;
+  line-height: 20px;
+  color: #DDD;
+  text-align: center;
+}
+
+.slots {
+  display: flex;
+  padding: 12px 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #DDD;
+}
+
+.display {
+  margin: 0 12px;
+  flex: 1;
+  text-align: center;
+}
+
+.in,
+.out {
+  min-width: 40px;
+}

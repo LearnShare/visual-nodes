@@ -1,0 +1,22 @@
+.in {
+  position: relative;
+  min-height: 20px;
+  padding-left: 10px;
+
+  & + .in {
+    margin-top: 12px;
+  }
+}
+
+.dot {
+  position: absolute;
+  left: -6px;
+  top: 50%;
+  translate: 0 -50%;
+  box-sizing: border-box;
+  border: solid 2px #54C837;
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background-color: #888;
+}
