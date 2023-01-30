@@ -5,7 +5,7 @@ import React, {
 import styles from './index.module.scss';
 
 interface NodeOutProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 function NodeOut({

@@ -2,15 +2,21 @@ import React from 'react';
 
 import {
   UiStage,
-  UiNode,
 } from '@/components';
+
+import {
+  TextInput,
+} from '@/nodes/input';
+import {
+  Sum,
+} from '@/nodes/math';
 
 function App() {
   return (
     <div className="app">
       <UiStage>
-        <UiNode
-            title="SUM" />
+        <TextInput />
+        <Sum />
       </UiStage>
     </div>
   );

@@ -1,13 +1,13 @@
 .node {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  translate: -50% -50%;
   box-sizing: border-box;
   border: solid 1px #999;
   border-radius: 8px;
   min-width: 200px;
   background-color: #555;
+
+  & + .node {
+    margin-top: 20px;
+  }
 }
 
 .title {
@@ -20,6 +20,7 @@
 
 .slots {
   display: flex;
+  gap: 12px;
   padding: 12px 0;
   font-size: 14px;
   line-height: 20px;
@@ -27,7 +28,6 @@
 }
 
 .display {
-  margin: 0 12px;
   flex: 1;
   text-align: center;
 }

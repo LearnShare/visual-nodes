@@ -34,5 +34,6 @@ module.exports = {
     'react/function-component-definition': 'off',
     'react/no-danger': 'off',
     '@typescript-eslint/return-await': 'off',
+    'import/prefer-default-export': 'off',
   },
 };

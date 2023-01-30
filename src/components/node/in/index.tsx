@@ -5,7 +5,7 @@ import React, {
 import styles from './index.module.scss';
 
 interface NodeInProps {
-  children: ReactNode;
+  children?: ReactNode;
 }
 
 function NodeIn({
